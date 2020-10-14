@@ -1,0 +1,1 @@
+OMPT="%(?:%{$fg_bold[green]%}आ ई:%{$fg_bold[red]%}आ ई)"
