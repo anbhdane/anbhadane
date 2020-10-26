@@ -1,0 +1,149 @@
+sudo apt-get install make
+sudo apt-get install meson
+mkdir ~/Programs
+cd ~/Programs
+sudo apt install git
+git clone git://github.com/ninja-build/ninja.git && cd ninja
+sudo apt-get install ninja-build
+cd ~/Downloads
+sudo apt-get update
+sudo apt-get install build-essential software-properties-common -y 
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
+sudo apt-get update
+sudo apt-get install gcc-10 g++-10
+
+------------------------------This will install the openssl-----------------needed for the cmake
+sudo apt-get install libssl-dev
+-------------------------------------------------------------------------------
+Install cmake------------------------------------------------------------------
+tar xvf cmake------
+cd cmake
+./bootstrap
+make 
+sudo make install
+-------------------------------------------------------------------------------------------------
+sudo apt install python2
+
+-------------------------------------------------------------------------------
+--------------------------------------glib2.64.2 installation-------------------------
+sudo apt-get install libgtk2.0-dev
+--------------------------------------------------------------------
+---------------------------------------gtk3.0 installation-------------------------
+sudo apt-get install libgtk-3-dev
+------------------------------------------------------------------------------------------
+---------------------------------zsh------------------------------------------
+sudo apt update
+sudo apt-get upgrade
+sudo apt install zsh
+--------------------------------------------------------------------------------------
+
+
+tar xfv zathura-<version>.tar.xz
+cd zathura-<version>
+mkdir build
+meson build
+cd build
+ninja
+ninja install
+
+
+
+
+
+----------------------------------------------------------------------------------------
+sudo apt-get install libgtk2.0-0:i386 libidn11:i386 libglu1-mesa:i386
+sudo apt-get install libpangox-1.0-0:i386 libpangoxft-1.0-0:i386
+
+
+----------------------------------------------------------------------------------------
+git clone --recursive git://git.ghostscript.com/mupdf.git
+git submodule update --init
+make prefix=/usr/local install
+sudo apt install zathura
+--------------------------------------------------------------------------------------
+sudo apt-get install libpoppler-glib-dev
+tar xfv zathura-pdf-poppler-<version>.tar.xz
+cd zathura-pdf-poppler-<version>
+mkdir build
+meson build
+cd build
+ninja
+ninja install
+
+
+
+
+zathura gets installed.................................................................
+
+
+
+fortran installation ------------------------------------------------------------------
+sudo apt-get install gfortran
+---------------------------------------------------------------------------------------
+
+
+----------------------------------------Neovim-----------------------------------------
+sudo apt-get install neovim
+---------------------------------------------------------------------------------------
+
+sudo apt-get install sxiv
+sudo apt-get install ffmpeg
+sudo apt-get install mpv
+
+
+
+
+sudo apt-get install python3-pip
+sudo apt-get install curl
+--------------------------------------------This is for the youcompletmeplugin for the vim----------------
+sudo apt-get install vim-nox
+--------------------------------------------------------------------------------------
+---------------------------------------------------tmux installation
+Download the tarball file
+tar xvf tmux-tar-file
+cd tmux
+./configure && make
+sudo make install
+-----------------------------------------------------------------------------
+
+---------------------------------------------allcaritty installation
+apt-get install cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev python3
+
+-------------------------------------------------------------------
+git clone https://github.com/alacritty/alacritty.git
+cd alacritty
+--------------------------------------------rust compliler?
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+sudo apt-get install cargo
+--------------------------------------------------------------
+cargo build --release
+-------------------------------alacrity is installed now
+
+
+
+
+
+
+--------------------------------------------
+sudo apt install dconf-editor
+gsettings set org.gnome.desktop.sound event-sounds false
+-------------------------------------------
+
+
+
+----------------------------------For the comand line or task manger -----------
+sudo apt-get install htop
+------------------------------------------------------------------------------
+
+
+ Serial number : S477-VBD7WXCC
+ 
+ source /home/asdf/intel/parallel_studio_xe_2020.2.108/bin/psxevars.sh
+ source ~/intel/parallel_studio_xe_2020.2.108/bin/psxevars.sh
+ 
+ 
+ 
+ 
+ 
+ 
+ 
